@@ -177,5 +177,25 @@ namespace AMTDotNetCore.ConsoleApp
 
             Console.WriteLine(result == 1 ? "update success" : "not update success");
         }
+
+        public void Delete()
+        {
+            Console.WriteLine("BlogId: ");
+            string id = Console.ReadLine();
+
+            SqlConnection connection = new SqlConnection(_connectionString);
+            connection.Open();
+
+            string query = $@"DELETE FROM [dbo].[Tbl_Blog]
+      WHERE BlogId = @BlogId";
+
+            SqlCommand cmd = new SqlCommand(query, connection);
+            cmd.Parameters.AddWithValue("@BlogId", id);
+
+            int result = cmd.ExecuteNonQuery();
+            connection.Close();
+
+            Console.WriteLine(result == 1 ? "delete success" : "not delete success");
+        }
     }
 }
