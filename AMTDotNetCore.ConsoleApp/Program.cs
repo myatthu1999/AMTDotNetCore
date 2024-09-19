@@ -5,8 +5,9 @@ using System.Data.SqlClient;
 
 AdoDotNetExample adoDotNetExample = new AdoDotNetExample();
 
-adoDotNetExample.Read();
+//adoDotNetExample.Read();
 //adoDotNetExample.Create();
-
+//adoDotNetExample.Edit();
+adoDotNetExample.Update();
 Console.ReadKey();
 
