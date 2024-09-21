@@ -129,7 +129,7 @@ namespace AMTDotNetCore.ConsoleApp
                     BlogId = id,
                 });
 
-                Console.WriteLine(result == 1 ? "delete success" : "not deleted");
+                Console.WriteLine(result == 1 ? "delete success" : "delete failed");
             }
         }
     }

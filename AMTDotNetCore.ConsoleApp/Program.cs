@@ -5,8 +5,9 @@ using System.Data.SqlClient;
 
 AdoDotNetExample adoDotNetExample = new AdoDotNetExample();
 DapperExample dapperExample = new DapperExample();
+EFCoreExample eFCoreExample = new EFCoreExample();
 
-adoDotNetExample.Read();
+//adoDotNetExample.Read();
 //adoDotNetExample.Create();
 //adoDotNetExample.Edit();
 //adoDotNetExample.Update();
@@ -17,5 +18,11 @@ adoDotNetExample.Read();
 //dapperExample.Edit(13);
 //dapperExample.Update(15,"ai","instructor","introduction");
 //dapperExample.Delete(2);
+
+eFCoreExample.Read();
+//eFCoreExample.Create("furniture", "phyo", "is used for");
+//eFCoreExample.Edit(17);
+//eFCoreExample.Update(17,"skincare","phyu","is good");
+//eFCoreExample.Delete(17);
 Console.ReadKey();
 
