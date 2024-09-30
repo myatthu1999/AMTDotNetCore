@@ -15,3 +15,5 @@ SLH => Collin
 -5000 => +5000
 
 Bank + 5000
+
+dotnet ef dbcontext scaffold "Server=.;Database=AMTDotNetCore;User Id=sa;Password=sasa@123;TrustServerCertificate=True;" Microsoft.EntityFrameworkCore.SqlServer -o Models -c AppDbContext -f
