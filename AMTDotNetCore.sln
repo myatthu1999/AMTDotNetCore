@@ -3,12 +3,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35222.181
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AMTDotNetCore.ConsoleApp", "AMTDotNetCore.ConsoleApp\AMTDotNetCore.ConsoleApp.csproj", "{2AE4FA6E-D590-488F-8A3B-C9BC3E76AF24}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AMTDotNetCore.ConsoleApp", "AMTDotNetCore.ConsoleApp\AMTDotNetCore.ConsoleApp.csproj", "{2AE4FA6E-D590-488F-8A3B-C9BC3E76AF24}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{64317943-7CF7-45C8-AB7F-D794D4AC8EA7}"
 	ProjectSection(SolutionItems) = preProject
 		README.md = README.md
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AMTDotNetCore.Database", "AMTDotNetCore.Database\AMTDotNetCore.Database.csproj", "{BE5BB071-2692-4428-8A57-B82E615D8869}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AMTDotNetCore.ConsoleApp2", "AMTDotNetCore.ConsoleApp2\AMTDotNetCore.ConsoleApp2.csproj", "{2A6DABE6-924C-4F14-B71D-B0212016FB4C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,6 +24,14 @@ Global
 		{2AE4FA6E-D590-488F-8A3B-C9BC3E76AF24}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2AE4FA6E-D590-488F-8A3B-C9BC3E76AF24}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2AE4FA6E-D590-488F-8A3B-C9BC3E76AF24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE5BB071-2692-4428-8A57-B82E615D8869}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE5BB071-2692-4428-8A57-B82E615D8869}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE5BB071-2692-4428-8A57-B82E615D8869}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE5BB071-2692-4428-8A57-B82E615D8869}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A6DABE6-924C-4F14-B71D-B0212016FB4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A6DABE6-924C-4F14-B71D-B0212016FB4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A6DABE6-924C-4F14-B71D-B0212016FB4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A6DABE6-924C-4F14-B71D-B0212016FB4C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
